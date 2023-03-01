@@ -177,7 +177,7 @@ h3 {
 
 .block_two_rooms_apartment {
   position: relative;
-  background-image: url(/Resources/Project_2rooms_apartment.png);
+  background-image: url(../Resources/Project_2rooms_apartment.png);
   background-repeat: no-repeat;
   width: 1400px;
   height: 717px;
