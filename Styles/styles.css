@@ -1,0 +1,235 @@
+body {
+  font-family: "Manrope", sans-serif;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+}
+
+.content {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+.firstblock {
+  margin-top: 125px;
+}
+
+.main-img {
+  position: relative;
+  background-image: url("../Resources/Main-img.png");
+  background-repeat: no-repeat;
+  width: 1150px;
+  height: 500px;
+  margin-top: 30px;
+}
+
+.main-text {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  width: 40%;
+  font-size: 20px;
+  line-height: 27.32px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+
+.about-h2 {
+  margin-top: 150px;
+  color: #121212;
+}
+
+.about-text {
+  margin-top: 30px;
+  margin-left: 3px;
+  max-width: 1048px;
+  font-size: 45px;
+  line-height: 62px;
+  letter-spacing: -0.03em;
+  color: #121212;
+}
+
+.about-btn {
+  display: block;
+  width: 255px;
+  height: 67px;
+  margin-top: 30px;
+  border-radius: 5px;
+  column-gap: 10px;
+  background-color: #ad1818;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 67px;
+  color: #ffffff;
+}
+
+.about-btn:hover {
+  color: #ffffff;
+  background-color: #ad0000;
+}
+
+.projects {
+  margin-top: 150px;
+}
+
+.projects_title {
+  margin-bottom: 30px;
+}
+
+.projects_list {
+  margin-bottom: 90px;
+}
+
+.projects-img {
+  width: 1150px;
+  height: 450px;
+}
+
+.projects-h3 {
+  margin-top: 15px;
+}
+
+.projects-link-more {
+  margin-top: 15px;
+  width: 150px;
+  height: 30px;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+  color: #ad1818;
+}
+
+.projects-link-more:hover {
+  color: #121212;
+}
+
+.projects-btn {
+  display: block;
+  width: 100%;
+  height: 153px;
+  margin-top: 90px;
+  border: 1px solid #ad1818;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-size: 30px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 153px;
+  letter-spacing: -0.03em;
+  color: #ad1818;
+}
+
+.projects-btn:hover {
+  color: #ffffff;
+  background-color: #ad1818;
+}
+
+.services {
+  margin-top: 150px;
+  padding: 150px 0;
+  width: 1400px;
+  background-color: #121212;
+}
+
+.services-title {
+  width: 66px;
+  height: 25px;
+  margin: 0 0 34px 2px;
+  color: #ffffff;
+}
+
+.services-block {
+  margin-bottom: 60px;
+}
+
+.services-block:nth-last-child(1) {
+  margin: 0;
+}
+
+.services-img {
+  margin-bottom: 15px;
+  width: 1150px;
+  height: 270px;
+}
+
+.services-text {
+  color: #ffffff;
+}
+
+.block_two_rooms_apartment {
+  position: relative;
+  background-image: url(/Resources/Project_2rooms_apartment.png);
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 717px;
+}
+
+.two_rooms_apartment {
+  position: absolute;
+  left: 125px;
+  bottom: 60px;
+  width: 443px;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+
+.contacts {
+  padding: 150px 0;
+}
+
+.contacts_img {
+  width: 24px;
+  height: 24px;
+  margin-left: -5px;
+}
+
+.contacts_title {
+  margin-top: 12px;
+  margin-left: -1px;
+}
+
+.contacts_number {
+  margin-top: 32px;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  color: #121212;
+}
+
+.contacts_email {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 412px;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  opacity: 50%;
+}
+
+.underline {
+  border-bottom: 2px solid #121212;
+  margin: 10px 0 0 3px;
+  width: 408px;
+  opacity: 50%;
+}
