@@ -33,7 +33,7 @@ h3 {
 
 .main-img {
   position: relative;
-  background-image: url("../Resources/Main-img.png");
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%), url(../Resources/Main-img.png);
   background-repeat: no-repeat;
   width: 1150px;
   height: 500px;
