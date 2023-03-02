@@ -151,7 +151,6 @@ h3 {
 
 .services {
   margin-top: 150px;
-  padding-bottom: 150px;
   background-color: #121212;
 }
 
@@ -169,6 +168,7 @@ h3 {
 
 .services-block:nth-last-child(1) {
   margin: 0;
+  padding-bottom: 150px;
 }
 
 .services-img {
