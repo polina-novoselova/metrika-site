@@ -237,7 +237,7 @@ a {
 .block_two_rooms_apartment {
   position: relative;
   height: 717px;
-  background-image: url(/Resources/Project_2rooms_apartment.png);
+  background-image: url(../Resources/Project_2rooms_apartment.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -271,7 +271,7 @@ a {
   margin: 0 0 12px -5px;
   width: 24px;
   height: 24px;
-  background-image: url(/Resources/contacts_img.png);
+  background-image: url(../Resources/contacts_img.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
