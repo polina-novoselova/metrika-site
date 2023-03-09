@@ -155,20 +155,20 @@ a {
   margin-bottom: 30px;
 }
 
-.projects_list {
+.project_list {
   margin-bottom: 87px;
 }
 
-.projects-img {
+.project-img {
   width: 1150px;
   height: 450px;
 }
 
-.projects-h3 {
+.project-h3 {
   margin-top: 15px;
 }
 
-.projects-link-more {
+.project-link-more {
   margin-top: 15px;
   width: 150px;
   height: 27px;
@@ -178,7 +178,7 @@ a {
   color: #ad1818;
 }
 
-.projects-link-more:hover {
+.project-link-more:hover {
   color: #121212;
 }
 
@@ -215,22 +215,22 @@ a {
   color: #ffffff;
 }
 
-.services-block {
+.service-block {
   margin-bottom: 58px;
 }
 
-.services-block:nth-last-child(1) {
+.service-block:nth-last-child(1) {
   margin: 0;
   padding-bottom: 150px;
 }
 
-.services-img {
+.service-img {
   margin-bottom: 14px;
   width: 1150px;
   height: 270px;
 }
 
-.services-text {
+.service-text {
   color: #ffffff;
 }
 
