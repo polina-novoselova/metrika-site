@@ -69,8 +69,7 @@ a {
   text-decoration: none;
 }
 
-.nav_link:hover,
-.nav_link_active {
+.nav_link:hover {
   border-bottom: 1px solid;
   color: rgba(0, 0, 0, 0.5);
   opacity: 0.5;
@@ -322,8 +321,7 @@ a {
   margin-right: 0;
 }
 
-.nav_link_footer:hover,
-.nav_link_footer_active {
+.nav_link_footer:hover {
   color: #ffffff;
   opacity: 0.5;
 }
