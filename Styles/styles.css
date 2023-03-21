@@ -81,8 +81,15 @@ a {
   margin-top: 70px;
 }
 
+.main__title {
+  max-width: 932px;
+}
+
 .main-img {
   position: relative;
+  width: 100%;
+  height: 500px;
+  margin-top: 30px;
   background: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0) 0%,
@@ -90,9 +97,7 @@ a {
     ),
     url(../Resources/Main-img.png);
   background-repeat: no-repeat;
-  width: 100%;
-  height: 500px;
-  margin-top: 30px;
+  background-position: 50%;
 }
 
 .main-text {
@@ -168,8 +173,6 @@ a {
 
 .project-link-more {
   margin-top: 15px;
-  width: 150px;
-  height: 27px;
   font-size: 20px;
   line-height: 27px;
   text-decoration: none;
@@ -342,67 +345,183 @@ a {
 }
 
 @media (max-width: 1199px) {
+  .header {
+    padding: 0 15px 0 17px;
+  }
 
   .content-width {
     width: 100%;
     margin: 0 auto;
-    margin: 0 15px 0 17px;
   }
 
   .main__title {
+    max-width: 800px;
     font-size: 50px;
   }
 
   .main-img {
     height: 400px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.2) 100%
+      ),
+      url(../Resources/main-img-tablet.png);
+    background-size: cover;
+    background-position: 50%;
   }
-  
+
   .main-text {
     bottom: 30px;
   }
 
   .about {
     margin-top: 120px;
+    padding: 0 15px 0 17px;
   }
-  
+
   .about-text {
     max-width: 690px;
     font-size: 35px;
     line-height: 48px;
   }
-  
+
   .projects {
     margin-top: 120px;
+    padding: 0 17px 0 15px;
   }
-  
+
   .projects_title {
     margin-bottom: 30px;
   }
-  
+
   .project_list {
     margin-bottom: 80px;
   }
-  
+
+  .project_list:last-child {
+    margin-bottom: 0;
+  }
+
+  .project-img {
+    object-fit: cover;
+  }
+
   .project__name {
     margin-top: 15px;
     font-size: 25px;
     line-height: 36px;
   }
-  
+
   .project-link-more {
     margin-top: 10px;
-    
   }
-  
+
   .projects-btn {
     margin-top: 22px;
   }
+}
 
+@media (max-width: 767px) {
+  .header {
+    padding: 0 12px 0 13px;
+  }
 
+  .content-width {
+    width: 100%;
+    margin: 0 auto;
+  }
 
+  .main__screen {
+    margin-top: 61px;
+  }
 
+  .main__title {
+    font-size: 30px;
+    line-height: 32px;
+    max-width: 335px;
+  }
 
+  .main-img {
+    margin-top: 25px;
+    max-height: 304px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.2) 100%
+      ),
+      url(../Resources/main-img-phone.png);
+    background-size: cover;
+    background-position: 50%;
+  }
 
+  .main-text {
+    max-width: 312px;
+    left: 15px;
+    bottom: 15px;
+    font-size: 16px;
+    line-height: 22px;
+  }
 
+  .about {
+    margin-top: 80px;
+    padding: 0 12px 0 17px;
+  }
 
+  .about__title {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .about-text {
+    margin-top: 20px;
+    max-width: 343px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .about-btn {
+    width: 194px;
+    height: 51px;
+    font-size: 16px;
+    line-height: 51px;
+  }
+
+  .projects {
+    margin-top: 80px;
+    padding: 0 12px 0 12px;
+  }
+
+  .projects_title {
+    margin-bottom: 20px;
+  }
+
+  .project_list {
+    margin-bottom: 49px;
+  }
+
+  .project-img {
+    max-height: 250px;
+    object-fit: cover;
+    /*заменить картинки*/
+  }
+
+  .project__name {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .project-link-more {
+    margin-top: 11px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .projects-btn {
+    margin-top: 60px;
+    height: 100px;
+    font-size: 22px;
+    line-height: 100px;
+  }
 }
