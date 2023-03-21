@@ -2,6 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initional-scale=1.0" />
     <title>Interior studio - METRIKA</title>
 
     <link rel="stylesheet" href="Styles/reset.css" />
@@ -12,10 +13,16 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="Styles/styles.css" />
-    <link rel="shortcut icon" type="image/ico" href="Resources/metrika_icon.ico"/>
+    <link
+      rel="shortcut icon"
+      type="image/ico"
+      href="Resources/metrika_icon.ico"
+    />
   </head>
-   <body>
-      <div class="content">
+  <body>
+    <header>
+      <div class="content-width">
+        <!--
         <div class="nav-section">
           <a class="logo_link" href="/">
             <img
@@ -31,13 +38,12 @@
             <a class="nav_link" href="#contacts">КОНТАКТЫ</a>
           </div>
         </div>
-        <div class="firstblock">
-          <div class="title">
-            <h1>
-              Современные и стильные<br />
-              интерьеры для комфортной жизни
-            </h1>
-          </div>
+      -->
+        <div class="main__screen">
+          <h1 class="main__title">
+            Современные и стильные<br />
+            интерьеры для комфортной жизни
+          </h1>
           <div class="main-img">
             <p class="main-text">
               Мы - команда квалифицированных дизайнеров и архитекторов,
@@ -45,17 +51,24 @@
             </p>
           </div>
         </div>
-        <div class="about" id="about">
-          <h2 class="about-h2">О НАС</h2>
-          <h2 class="about-text">
-            Студия основана в 2011 году. Полностью отдаемся проектированию и
-            реализации интерьеров. К нам обращаются за уютом, индивидуальными
-            решениями и практичностью. Находим конструктивные решения для
-            каждого интерьера, вплоть до каждой детали — нацелены на результат.
-          </h2>
-          <a class="about-btn" href="/">Посмотреть услуги</a>
+      </div>
+    </header>
+    <main>
+      <section class="about" id="about">
+        <div class="content-width">
+            <h2 class="about__title">О НАС</h2>
+            <p class="about-text">
+              Студия основана в 2011 году. Полностью отдаемся проектированию и
+              реализации интерьеров. К нам обращаются за уютом, индивидуальными
+              решениями и практичностью. Находим конструктивные решения для
+              каждого интерьера, вплоть до каждой детали — нацелены на
+              результат.
+            </p>
+            <a class="about-btn" href="/">Посмотреть услуги</a>
         </div>
-        <div class="projects" id="projects">
+      </section>
+      <section class="projects" id="projects">
+        <div class="content-width">
           <h2 class="projects_title">ПРОЕКТЫ</h2>
           <div class="project_list">
             <img
@@ -63,7 +76,7 @@
               src="Resources/projects-imgs/Project-1.png"
               alt="фото ЖК Правобережный"
             />
-            <h3 class="project-h3">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
+            <h3 class="project__name">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
             <div class="project-link-more">
               <a class="project-link-more" href="/">Подробнее →</a>
             </div>
@@ -92,9 +105,10 @@
           </div>
           <a class="projects-btn" href="/">Смотреть все проекты</a>
         </div>
-      </div>
-      <div class="services" id="services">
-        <div class="content">
+      </section>
+      <!--
+        <section class="services" id="services">
+        <div class="content-width">
           <h2 class="services-title">УСЛУГИ</h2>
           <div class="service-block">
             <img
@@ -131,35 +145,47 @@
             </h3>
           </div>
         </div>
-      </div>
-      <div class="block_two_rooms_apartment">
-        <p class="two_rooms_apartment">
-          Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж
-        </p>
-      </div>
-      <div class="content" id="contacts">
-        <div class="contacts">
-          <h2 class="contacts_title">КОНТАКТЫ</h2>
-          <p class="contacts_number">
-            <a class="number_link" href="tel:+79358954535">+7 935 895-45-35</a>
-          </p>
-          <p class="contacts_email">
-            <a class="email_link" href="mailto:hello@mail.com"
-              >hello@mail.com</a
-            >
-          </p>
+      </section>
+      <section class="slider_img">
+        <div class="block_two_rooms_apartment">
+          <div class="content-width">
+            <p class="two_rooms_apartment">
+              Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж
+            </p>
+          </div>
         </div>
-      </div>
+      </section>
+      <section class="cntcts">
+        <div class="content-width" id="contacts">
+          <div class="contacts">
+            <h2 class="contacts_title">КОНТАКТЫ</h2>
+            <p class="contacts_number">
+              <a class="number_link" href="tel:+79358954535"
+                >+7 935 895-45-35</a
+              >
+            </p>
+            <p class="contacts_email">
+              <a class="email_link" href="mailto:hello@mail.com"
+                >hello@mail.com</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
       <div class="footer">
-        <div class="nav_footer">
-          <a class="nav_link_footer" href="#about"
-            >О НАС</a
-          >
-          <a class="nav_link_footer" href="#projects">ПРОЕКТЫ</a>
-          <a class="nav_link_footer" href="#services">УСЛУГИ</a>
-          <a class="nav_link_footer" href="#contacts">КОНТАКТЫ</a>
+        <div class="content-width">
+          <div class="nav_footer">
+            <a class="nav_link_footer" href="#about">О НАС</a>
+            <a class="nav_link_footer" href="#projects">ПРОЕКТЫ</a>
+            <a class="nav_link_footer" href="#services">УСЛУГИ</a>
+            <a class="nav_link_footer" href="#contacts">КОНТАКТЫ</a>
+          </div>
+          <p class="text_footer">студия дизайна интерьера Метрика — 2023</p>
         </div>
-        <p class="text_footer">студия дизайна интерьера Метрика — 2023</p>
       </div>
+    </footer>
+     -->
   </body>
 </html>
