@@ -645,8 +645,6 @@ a {
   }
 
   .services__list {
-    display: flex;
-    flex-direction: column;
     row-gap: 60px;
   }
 
@@ -685,8 +683,6 @@ a {
   }
 
   .feedback__list {
-    display: flex;
-    flex-direction: column;
     margin-top: 22px;
     row-gap: 80px;
   }
