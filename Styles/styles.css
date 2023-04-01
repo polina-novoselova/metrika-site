@@ -30,24 +30,24 @@ a {
   letter-spacing: -0.03em;
 }
 
-.content__width {
+.content-width {
   width: 1150px;
   margin: 0 auto;
 }
 
-.nav__block {
+.header-inner {
   padding-top: 33px;
 }
 
-.logo__link {
+.logo-wrapper__logo-link {
   display: inline-block;
 }
 
-.logo__img {
+.logo-wrapper__logo-img {
   display: block;
 }
 
-.navigation {
+.nav {
   display: inline;
   float: right;
   vertical-align: top;
@@ -69,15 +69,15 @@ a {
   opacity: 0.5;
 }
 
-.main__screen {
+.main-screen {
   margin-top: 70px;
 }
 
-.main__title {
+.main-screen__title {
   max-width: 932px;
 }
 
-.main__img {
+.main-screen__img {
   position: relative;
   width: 100%;
   height: 500px;
@@ -92,7 +92,7 @@ a {
   background-position: 50%;
 }
 
-.main__text {
+.main-screen__description {
   position: absolute;
   left: 40px;
   bottom: 40px;
@@ -110,7 +110,7 @@ a {
   color: #121212;
 }
 
-.about__text {
+.about__description {
   margin-top: 30px;
   margin-left: 3px;
   max-width: 1048px;
@@ -164,7 +164,7 @@ a {
   margin-top: 15px;
 }
 
-.project__link__more {
+.project__link-more {
   margin-top: 15px;
   font-size: 20px;
   line-height: 27px;
@@ -173,7 +173,7 @@ a {
   transition: 0.5s;
 }
 
-.project__link__more:hover {
+.project__link-more:hover {
   color: #121212;
 }
 
@@ -297,7 +297,7 @@ a {
   line-height: 30px;
 }
 
-.slider__img {
+.slider {
   margin-top: 150px;
 }
 
@@ -310,7 +310,7 @@ a {
   background-position: 50%;
 }
 
-.slider__text {
+.slider__description {
   position: absolute;
   left: 125px;
   bottom: 60px;
@@ -364,16 +364,16 @@ a {
   opacity: 50%;
 }
 
-.footer__inner {
+.footer-inner {
   padding: 60px 0 30px 0;
   background-color: #121212;
 }
 
-.nav__footer {
+.nav-footer {
   text-align: center;
 }
 
-.nav__link__footer {
+.nav-footer__link {
   display: inline-block;
   margin-right: 55px;
   font-size: 18px;
@@ -384,11 +384,11 @@ a {
   transition: 0.5s;
 }
 
-.nav__link__footer:nth-last-child(1) {
+.nav-footer__link:nth-last-child(1) {
   margin-right: 0;
 }
 
-.nav__link__footer:hover {
+.nav-footer__link:hover {
   color: #ffffff;
   opacity: 0.5;
 }
@@ -403,22 +403,22 @@ a {
 }
 
 @media (max-width: 1199px) {
-  .main__screen {
+  .main-screen {
     margin-top: 74px;
   }
 
-  .content__width {
+  .content-width {
     width: 100%;
     margin: 0 auto;
     padding: 0 15px 0 17px;
   }
 
-  .main__title {
+  .main-screen__title {
     max-width: 800px;
     font-size: 50px;
   }
 
-  .main__img {
+  .main-screen__img {
     height: 400px;
     background: linear-gradient(
         180deg,
@@ -430,7 +430,7 @@ a {
     background-position: 50%;
   }
 
-  .main__text {
+  .main-screen__description {
     bottom: 30px;
   }
 
@@ -438,7 +438,7 @@ a {
     margin-top: 120px;
   }
 
-  .about__text {
+  .about__description {
     max-width: 690px;
     font-size: 35px;
     line-height: 48px;
@@ -470,7 +470,7 @@ a {
     line-height: 36px;
   }
 
-  .project__link__more {
+  .project__link-more {
     margin-top: 10px;
   }
 
@@ -537,23 +537,23 @@ a {
 }
 
 @media (max-width: 767px) {
-  .main__screen {
+  .main-screen {
     margin-top: 61px;
   }
 
-  .content__width {
+  .content-width {
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
   }
 
-  .main__title {
+  .main-screen__title {
     font-size: 30px;
     line-height: 32px;
     max-width: 335px;
   }
 
-  .main__img {
+  .main-screen__img {
     margin-top: 25px;
     max-height: 304px;
     background: linear-gradient(
@@ -566,7 +566,7 @@ a {
     background-position: 50%;
   }
 
-  .main__text {
+  .main-screen__description {
     max-width: 312px;
     left: 15px;
     bottom: 15px;
@@ -583,7 +583,7 @@ a {
     line-height: 19px;
   }
 
-  .about__text {
+  .about__description {
     margin-top: 20px;
     width: 100%;
     font-size: 22px;
@@ -620,7 +620,7 @@ a {
     line-height: 25px;
   }
 
-  .project__link__more {
+  .project__link-more {
     margin-top: 11px;
     font-size: 16px;
     line-height: 22px;
