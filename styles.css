@@ -1,12 +1,12 @@
-@import url(/styles/header.css);
-@import url(/styles/mainscreen.css);
-@import url(/styles/about.css);
-@import url(/styles/projects.css);
-@import url(/styles/sevices.css);
-@import url(/styles/feedback.css);
-@import url(/styles/gallery.css);
-@import url(/styles/contacts.css);
-@import url(/styles/footer.css);
+@import url(./styles/header.css);
+@import url(./styles/mainscreen.css);
+@import url(./styles/about.css);
+@import url(./styles/projects.css);
+@import url(./styles/sevices.css);
+@import url(./styles/feedback.css);
+@import url(./styles/gallery.css);
+@import url(./styles/contacts.css);
+@import url(./styles/footer.css);
 
 
 html {
