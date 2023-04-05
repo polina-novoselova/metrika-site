@@ -1,0 +1,30 @@
+.feedback__title {
+  margin-top: 150px;
+}
+
+.feedback__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.feedback__item {
+  width: calc(50% - 25px);
+}
+
+.feedback__item:last-child:nth-child(2n + 1) {
+  width: 861px;
+}
+
+.feedback__name {
+  font-size: 45px;
+  line-height: 61px;
+}
+
+.feedback__description {
+  margin-top: 14px;
+  font-size: 22px;
+  line-height: 30px;
+}

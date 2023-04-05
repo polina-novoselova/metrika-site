@@ -1,0 +1,33 @@
+.header-inner {
+  padding-top: 33px;
+}
+
+.logo-wrapper__logo-link {
+  display: inline-block;
+}
+
+.logo-wrapper__logo-img {
+  display: block;
+}
+
+.nav {
+  display: inline;
+  float: right;
+  vertical-align: top;
+}
+
+.nav__link {
+  margin-left: 57px;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #121212;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.nav__link:hover {
+  border-bottom: 1px solid;
+  color: rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
+}

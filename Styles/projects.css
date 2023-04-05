@@ -1,0 +1,53 @@
+.projects {
+  margin-top: 150px;
+}
+
+.projects__title {
+  margin-bottom: 30px;
+}
+
+.project__list {
+  margin-bottom: 87px;
+}
+
+.project__img {
+  width: 100%;
+  height: 450px;
+}
+
+.project__name {
+  margin-top: 15px;
+}
+
+.project__link-more {
+  margin-top: 15px;
+  font-size: 20px;
+  line-height: 27px;
+  text-decoration: none;
+  color: #ad1818;
+  transition: 0.5s;
+}
+
+.project__link-more:hover {
+  color: #121212;
+}
+
+.projects__btn {
+  display: block;
+  width: 100%;
+  height: 153px;
+  border: 1px solid #ad1818;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-size: 30px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 153px;
+  color: #ad1818;
+  transition: 0.5s;
+}
+
+.projects__btn:hover {
+  color: #ffffff;
+  background-color: #ad1818;
+}

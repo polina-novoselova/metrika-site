@@ -1,0 +1,40 @@
+.about {
+  margin-top: 150px;
+}
+
+.about__title {
+  color: #121212;
+}
+
+.about__description {
+  margin-top: 30px;
+  margin-left: 3px;
+  max-width: 1048px;
+  font-size: 45px;
+  line-height: 61px;
+  color: #121212;
+}
+
+.about__btn {
+  display: block;
+  box-sizing: border-box;
+  width: 255px;
+  height: 67px;
+  margin-top: 30px;
+  border: 1px solid #ad1818;
+  border-radius: 5px;
+  column-gap: 10px;
+  background-color: #ad1818;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 67px;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.about__btn:hover {
+  color: #ffffff;
+  background-color: #ca1c1c;
+  border-radius: 1px solid #ca1c1c;
+}

@@ -1,0 +1,37 @@
+.footer-inner {
+  padding: 60px 0 30px 0;
+  background-color: #121212;
+}
+
+.nav-footer {
+  text-align: center;
+}
+
+.nav-footer__link {
+  display: inline-block;
+  margin-right: 55px;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.nav-footer__link:nth-last-child(1) {
+  margin-right: 0;
+}
+
+.nav-footer__link:hover {
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.text__footer {
+  margin-top: 87px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+  opacity: 50%;
+}
