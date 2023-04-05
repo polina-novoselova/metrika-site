@@ -16,7 +16,7 @@
       rgba(0, 0, 0, 0) 0%,
       rgba(0, 0, 0, 0.2) 100%
     ),
-    url(./resources/Main-img.png);
+    url(../resources/Main-img.png);
   background-repeat: no-repeat;
   background-position: 50%;
 }
