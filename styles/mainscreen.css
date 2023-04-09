@@ -48,7 +48,7 @@
         rgba(0, 0, 0, 0) 0%,
         rgba(0, 0, 0, 0.2) 100%
       ),
-      url(/resources/main-img-tablet.png);
+      url(../resources/main-img-tablet.png);
     background-size: cover;
     background-position: 50%;
   }
@@ -77,7 +77,7 @@
         rgba(0, 0, 0, 0) 0%,
         rgba(0, 0, 0, 0.2) 100%
       ),
-      url(/resources/main-img-phone.png);
+      url(../resources/main-img-phone.png);
     background-size: cover;
     background-position: 50%;
   }
