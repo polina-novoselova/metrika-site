@@ -31,3 +31,11 @@
   color: rgba(0, 0, 0, 0.5);
   opacity: 0.5;
 }
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 767px) {
+  
+}

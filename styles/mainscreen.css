@@ -30,3 +30,63 @@
   line-height: 27.32px;
   color: #ffffff;
 }
+
+@media (max-width: 1199px) {
+  .main-screen {
+    margin-top: 74px;
+  }
+
+  .main-screen__title {
+    max-width: 800px;
+    font-size: 50px;
+  }
+
+  .main-screen__img {
+    height: 400px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.2) 100%
+      ),
+      url(/resources/main-img-tablet.png);
+    background-size: cover;
+    background-position: 50%;
+  }
+
+  .main-screen__description {
+    bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-screen {
+    margin-top: 61px;
+  }
+
+  .main-screen__title {
+    font-size: 30px;
+    line-height: 32px;
+    max-width: 335px;
+  }
+
+  .main-screen__img {
+    margin-top: 25px;
+    max-height: 304px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.2) 100%
+      ),
+      url(/resources/main-img-phone.png);
+    background-size: cover;
+    background-position: 50%;
+  }
+
+  .main-screen__description {
+    max-width: 312px;
+    left: 15px;
+    bottom: 15px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

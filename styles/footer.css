@@ -37,3 +37,25 @@
   color: #ffffff;
   opacity: 50%;
 }
+
+@media (max-width: 767px) {
+  .footer {
+    padding: 30px 47px 26px 47px;
+    background-color: #121212;
+  }
+  
+  .nav-footer {
+    max-width: 281px;
+  }
+  
+  .nav-footer__link {
+    font-size: 12px;
+    line-height: 17px;
+  }
+  
+  .text__footer {
+    margin-top: 41px;
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
