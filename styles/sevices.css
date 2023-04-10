@@ -42,7 +42,7 @@
 }
 
 .service__name {
-  margin-top: 25px;
+  margin-top: 17px;
   color: #ffffff;
 }
 
@@ -69,6 +69,7 @@
 
 @media (max-width: 1199px) {
   .services {
+    margin-top: 100px;
     padding: 150px 0 120px 0;
   }
 

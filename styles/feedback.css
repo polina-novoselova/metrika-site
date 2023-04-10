@@ -7,7 +7,7 @@
   flex-wrap: wrap;
   margin-top: 30px;
   justify-content: space-between;
-  gap: 50px;
+  row-gap: 80px;
 }
 
 .feedback__item {
