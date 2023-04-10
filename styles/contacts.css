@@ -10,13 +10,13 @@
   
 
 .contact__number,
-.contact__email {
+.contact__tg {
   position: relative;
   width: 472px;
 }
 
 
-.contact__email-link,
+.contact__tg-link,
 .contact__number-link {
   font-size: 60px;
   line-height: 60px;
@@ -26,13 +26,13 @@
 }
 
 .contact__number-link:hover,
-.contact__email-link:hover {
+.contact__tg-link:hover {
   border-bottom: 2px solid #121212;
   opacity: 50%;
 }
 
 .contact__number:before,
-.contact__email:before {
+.contact__tg:before {
   content: "";
   position: absolute;
   bottom: 80px;
@@ -46,8 +46,8 @@
   background-image: url(../resources/contacts-imgs/contacts_img.png);
 }
 
-.contact__email:before {
-  background-image: url(../resources/contacts-imgs/contact-mail.png);
+.contact__tg:before {
+  background-image: url(../resources/contacts-imgs/contact_tg.png);
 }
 
 @media (max-width: 1199px) {
@@ -60,11 +60,11 @@
   }
   
   .contact__number,
-  .contact__email {
+  .contact__tg {
     width: 354px;
   }
   
-  .contact__email-link,
+  .contact__tg-link,
   .contact__number-link {
     font-size: 40px;
   }
@@ -83,26 +83,23 @@
   .contact__items {
     flex-direction: column;
     margin-top: 50px;
+    row-gap: 58px;
   }
     
   
   .contact__number,
-  .contact__email {
+  .contact__tg {
     width: 100%;
   }
   
-  .contact__email {
-   margin-top: 58px;
-  }
-  
-  .contact__email-link,
+  .contact__tg-link,
   .contact__number-link {
     font-size: 35px;
     line-height: 45px;
   }
   
   .contact__number:before,
-  .contact__email:before {
+  .contact__tg:before {
     bottom: 60px;
     width: 18px;
     height: 18px;

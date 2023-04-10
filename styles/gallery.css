@@ -59,9 +59,11 @@
 
 .gallery__controls-wrapper {
   position: absolute;
+  display: flex;
   width: 100%;
   bottom: 162px;
   height: 40px;
+  row-gap: 14px;
 }
 
 .gallery__control-prev,
@@ -76,7 +78,6 @@
 }
 
 .gallery__control-prev {
-  margin-right: 14px;
   background-image: url(../resources/gallery-arrows/arrow-prev.png);
 }
 
