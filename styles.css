@@ -3,6 +3,7 @@
 @import url(./styles/about.css);
 @import url(./styles/projects.css);
 @import url(./styles/sevices.css);
+@import url(./styles/popup.css);
 @import url(./styles/feedback.css);
 @import url(./styles/gallery.css);
 @import url(./styles/contacts.css);
@@ -16,6 +17,12 @@ html {
 body {
   font-family: "Manrope", sans-serif;
   letter-spacing: -0.03em;
+}
+
+/* body-fixed for popup.js*/
+
+.body_fixed {
+  overflow: hidden;
 }
 
 h1 {
@@ -37,8 +44,13 @@ h3 {
 }
 
 p,
-a {
+a,
+button {
   letter-spacing: -0.03em;
+}
+
+button {
+  font-family: manrope;
 }
 
 .content-width {
