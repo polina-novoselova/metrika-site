@@ -45,12 +45,10 @@ h3 {
 
 p,
 a,
-button {
-  letter-spacing: -0.03em;
-}
-
-button {
+button,
+input {
   font-family: manrope;
+  letter-spacing: -0.03em;
 }
 
 .content-width {
