@@ -1,23 +1,23 @@
 .header-inner {
-  padding-top: 33px;
+  position: relative;
+  display: flex;
+  padding-top: 30px;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.logo-wrapper__logo-link {
-  display: inline-block;
-}
-
-.logo-wrapper__logo-img {
+.header__logo-img {
   display: block;
 }
 
 .nav {
-  display: inline;
-  float: right;
-  vertical-align: top;
+  display: flex;
+  width: 466px;
+  justify-content: space-between;
+  
 }
 
 .nav__link {
-  margin-left: 57px;
   font-size: 18px;
   line-height: 25px;
   text-align: center;
@@ -30,12 +30,4 @@
   border-bottom: 1px solid;
   color: rgba(0, 0, 0, 0.5);
   opacity: 0.5;
-}
-
-@media (max-width: 1199px) {
-
-}
-
-@media (max-width: 767px) {
-  
 }

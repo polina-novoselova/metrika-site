@@ -77,6 +77,10 @@
   font-size: 25px;
   line-height: 44px;
   color: #000000;
+}
+
+.popup__input::placeholder {
+  color: #000000;
   opacity: 0.5;
 }
 
