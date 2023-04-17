@@ -28,6 +28,13 @@
   height: 620px;
   background-color: #ffffff;
   border-bottom-left-radius: 30px;
+  transition: transform 0.3s linear;
+  transform: translate(100%);
+
+}
+
+.burger__open .burger__content {
+  transform: translate(0);
 }
 
 @media (max-width: 1199px) {
@@ -93,7 +100,7 @@
     opacity: 0.5;
   }
 
-  .burger__cintacts {
+  .burger__contacts {
     margin-top: 90px;
   }
 
