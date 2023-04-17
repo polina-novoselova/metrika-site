@@ -30,7 +30,6 @@
   border-bottom-left-radius: 30px;
   transition: transform 0.3s linear;
   transform: translate(100%);
-
 }
 
 .burger__open .burger__content {
@@ -46,6 +45,9 @@
   .burger-btn_open {
     position: absolute;
     display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
