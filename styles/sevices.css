@@ -65,6 +65,7 @@
 .services-btn__link:hover {
   color: #ffffff;
   background-color: #6c0f0f;
+  border: 1px solid #6c0f0f;
 }
 
 @media (max-width: 1199px) {
@@ -97,7 +98,7 @@
 
 @media (max-width: 767px) {
   .services {
-    margin-top: 144px;
+    margin-top: 80px;
     padding: 80px 0;
   }
 

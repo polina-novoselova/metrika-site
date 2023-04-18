@@ -58,7 +58,7 @@
     top: 30px;
     width: 50px;
     height: 15px;
-    background-image: url(../resources/burger-menu_opener.png);
+    background-image: url(../resources/burger-imgs/burger-menu_opener.png);
     z-index: 100;
   }
 
@@ -66,7 +66,7 @@
     top: 20px;
     width: 34px;
     height: 34px;
-    background-image: url(../resources/burger-menu_closer.png);
+    background-image: url(../resources/burger-imgs/burger-menu_closer.png);
   }
 
   .burger-btn:hover,
@@ -98,7 +98,7 @@
 
   .burger__nav-link:hover {
     border-bottom: 1px solid;
-    color: rgba(0, 0, 0, 0.5);
+    color: #000000;
     opacity: 0.5;
   }
 

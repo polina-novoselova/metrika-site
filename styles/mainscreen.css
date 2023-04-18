@@ -38,6 +38,7 @@
 
   .main-screen__title {
     max-width: 800px;
+    width: 100%;
     font-size: 50px;
   }
 
@@ -66,7 +67,6 @@
   .main-screen__title {
     font-size: 30px;
     line-height: 32px;
-    max-width: 335px;
   }
 
   .main-screen__img {
