@@ -66,6 +66,8 @@
 @media (max-width: 767px) {
   .feedback__title {
     margin-top: 80px;
+    font-size: 14px;
+    line-height: 19px;
   }
 
   .feedback__list {

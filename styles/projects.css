@@ -95,6 +95,8 @@
 
   .projects__title {
     margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 19px;
   }
 
   .project__list {
